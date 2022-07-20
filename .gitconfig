@@ -1,0 +1,10 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Ashur Kanwal
+	email = 56555709+ashur-k@users.noreply.github.com
+[core]
+   excludesfile = %(prefix)/home/boppreh/.gitignore

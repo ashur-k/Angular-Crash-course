@@ -1,0 +1,18 @@
+Project Start Settings:
+
+After starting project installation
+	Do not Share data
+	Do not set routing (Mormally will set routing but for this project routing will be set in end)
+	genral css is selected to write css for project
+
+echo "# angular-crash-course" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ashur-k/angular-crash-course.git
+git push -u origin main
+
+npm i json-server
+add the line to scripts "server": "json-server --watch db.json --port 5000"
+run command npm run server
